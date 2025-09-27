@@ -17,3 +17,20 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           assignees: tabrezahmed51
           numOfAssignee: 1
+          assignees: tabrezahmed51, anotherUser
+          numOfAssignee: 2
+      with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: tabrezahmed51
+          numOfAssignee: 1
+          label: "auto-assign"
+          jobs:
+  assign-issue:
+    if: github.event_name == 'issues'
+    ...
+  assign-pr:
+    if: github.event_name == 'pull_request'
+    ...
+
+
+
