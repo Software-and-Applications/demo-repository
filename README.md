@@ -1,5 +1,7 @@
 ![Auto Assign](https://github.com/Software-and-Applications/demo-repository/actions/workflows/auto-assign.yml/badge.svg)
 
+[![Discussion Triage](https://github.com/cli/cli/actions/workflows/triage.yml/badge.svg)](https://github.com/cli/cli/actions/workflows/triage.yml)
+
 ![Proof HTML](https://github.com/Software-and-Applications/demo-repository/actions/workflows/proof-html.yml/badge.svg)
 
 # Welcome to your organization's demo respository
